@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        max-width: 800px;
+        box-sizing: border-box;
+        margin: 0 auto;
+      }
+      .gallery-item {
+        flex-basis: 18%;
+        flex-grow: 1px;
+        text-align: center;
+      }
+      .thumb {
+        background-color: rgba(17, 2, 71, 0.363);
+        display: block;
+        width: 150px;
+        height: auto;
+        margin: 0 auto;
+      }
+      .gallery-heading {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .image-title {
+        margin-top: 10px;
+      }
+
+      @media screen and (max-width: 1024px) {
+        .gallery-item {
+          flex-basis: 18%;
+        }
+      }
+      @media screen and (max-width: 768px) {
+        .gallery-item {
+          flex-basis: 30%;
+        }
+      }
+      @media screen and (max-width: 480px) {
+        .gallery-item {
+          flex-basis: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h2 class="gallery-heading">Gallery Heading</h2>
+
+    <div class="gallery">
+      <div class="gallery-item">
+        <img
+          class="thumb"
+          src="./img/placeholder-image.png"
+          alt="Thumbnail 1"
+        />
+        <h3 class="image-title">Image Title</h3>
+      </div>
+      <div class="gallery-item">
+        <img
+          class="thumb"
+          src="./img/placeholder-image.png"
+          alt="Thumbnail 2"
+        />
+        <h3 class="image-title">Image Title</h3>
+      </div>
+      <div class="gallery-item">
+        <img
+          class="thumb"
+          src="./img/placeholder-image.png"
+          alt="Thumbnail 3"
+        />
+        <h3 class="image-title">Image Title</h3>
+      </div>
+      <div class="gallery-item">
+        <img
+          class="thumb"
+          src="./img/placeholder-image.png"
+          alt="Thumbnail 4"
+        />
+        <h3 class="image-title">Image Title</h3>
+      </div>
+      <div class="gallery-item">
+        <img
+          class="thumb"
+          src="./img/placeholder-image.png"
+          alt="Thumbnail 5"
+        />
+        <h3 class="image-title">Image Title</h3>
+      </div>
+      <div class="gallery-item">
+        <img
+          class="thumb"
+          src="./img/placeholder-image.png"
+          alt="Thumbnail 6"
+        />
+        <h3 class="image-title">Image Title</h3>
+      </div>
+      <div class="gallery-item">
+        <img
+          class="thumb"
+          src="./img/placeholder-image.png"
+          alt="Thumbnail 7"
+        />
+        <h3 class="image-title">Image Title</h3>
+      </div>
+      <div class="gallery-item">
+        <img
+          class="thumb"
+          src="./img/placeholder-image.png"
+          alt="Thumbnail 8"
+        />
+        <h3 class="image-title">Image Title</h3>
+      </div>
+      <div class="gallery-item">
+        <img
+          class="thumb"
+          src="./img/placeholder-image.png"
+          alt="Thumbnail 9"
+        />
+        <h3 class="image-title">Image Title</h3>
+      </div>
+      <div class="gallery-item">
+        <img
+          class="thumb"
+          src="./img/placeholder-image.png"
+          alt="Thumbnail 10"
+        />
+        <h3 class="image-title">Image Title</h3>
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus,
+        aspernatur. Ut, quasi debitis optio molestiae quidem fugit totam
+        repellendus unde perferendis eum laboriosam, enim, non odit neque qui
+        tempore quos.
+      </p>
+    </div>
+  </body>
+</html>
